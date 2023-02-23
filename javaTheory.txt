@@ -1,0 +1,181 @@
+
+
+												JAVA OOPS CONCEPTS
+
+
+What is OOPs Concept?
+Object-oriented programming is a core of Java Programming, which is used for designing a program using classes and objects. OOPs, 
+can also be characterized as data controlling for accessing the code.
+In this approach, programmers define the data type of a data structure and the operations that are applied to the data structure.
+
+What is OOPs in java? 
+OOps in java is to improve code readability and reusability by defining a Java program efficiently. 
+The main principles of object-oriented programming are abstraction, encapsulation, inheritance, and polymorphism.
+These concepts aim to implement real-world entities in programs.
+
+List of OOPs Concepts in Java
+Objects
+Classes
+Object 
+Class
+Abstraction
+Inheritance 
+Polymorphism
+Encapsulation
+
+
+What is Abstraction?  
+Abstraction is a process which displays only the information needed and hides the unnecessary information. 
+We can say that the main purpose of abstraction is data hiding. Abstraction means selecting data from a large number of data to show the information needed, 
+which helps in reducing programming complexity and efforts.  
+
+What is Inheritance?
+Inheritance is a method in which one object acquires/inherits another object’s properties, and inheritance also supports hierarchical classification.
+The idea behind this is that we can create new classes built on existing classes, i.e., when you inherit from an existing class,
+we can reuse methods and fields of the parent class. Inheritance represents the parent-child relationship. To know more about this concept check the free inheritance in java course.
+
+Single level  
+In this one class i.e., the derived class inherits properties from its parental class. 
+This enables code reusability and also adds new features to the code. 
+
+Example: class b inherits properties from class a.
+Class A is the base or parental class and class b is the derived class.
+
+Multilevel
+This one class is derived from another class which is also derived from another class i.e., 
+this class has more than one parental class, hence it is called multilevel inheritance.
+
+Hierarchical level 
+In this one parental class has two or more derived classes or we can say that two or more child classes have one parental class.
+
+Hybrid inheritance
+This is the combination of multiple and multilevel inheritances and in java,
+multiple inheritances are not supported as it leads to ambiguity and this type of inheritance can only be achieved through interfaces.
+
+
+What is Polymorphism?
+Polymorphism refers to many forms, or it is a process that performs a single action in different ways.
+It occurs when we have many classes related to each other by inheritance. Polymorphism is of two different types,
+i.e., compile-time polymorphism and runtime polymorphism. One of the examples of Compile time polymorphism is that when we overload a static method in java.
+Run time polymorphism also called a dynamic method dispatch is a method in which a call to an overridden method is resolved at run time rather than compile time.
+In this method, the overridden method is always called through the reference variable. By using method overloading and method overriding,
+we can perform polymorphism. Generally, the concept of polymorphism is often expressed as one interface, and multiple methods.
+This reduces complexity by allowing the same interface to be used as a general class of action. 
+
+
+What is Encapsulation?
+Encapsulation is one of the concepts in OOPs concepts;
+it is the process that binds together the data and code into a single unit and keeps both from being safe from outside interference and misuse.
+In this process, the data is hidden from other classes and can be accessed only through the current class’s methods.
+Hence, it is also known as data hiding. Encapsulation acts as a protective wrapper that prevents the code and data from being accessed by outsiders.
+These are controlled through a well-defined interface. 
+
+
+LOOPS IN JAVA
+
+There are three types of Java loop statements. Loops may be used in a situation when we need to execute a block of code several times. The loop statements are:
+
+for loop
+while loop
+do-while loop
+
+for Loop
+A simple for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
+A for loop is useful when you know how many times a task is to be repeated.
+
+EX.  for (int i = 1; i <= 10; i++) {
+ System.out.println(i);
+ }
+
+while Loop
+The while loop statements executes as long as the loop condition condition is true. 
+This will continue as long as the expression result is true.
+
+{
+int i=0;
+ while(i < 5) {
+ System.out.println(i);
+ i++;
+ }
+
+do-while loop
+The do-while loop is guaranteed to execute the loop statements at least once.
+So, this loop is ideal for menu-based user programs. We can display the application menu in the loop and let the user decide the flow of the program.
+
+
+
+
+
+CONDITIONAL STATEMENTS
+A conditional statement is an expression that produces a true or false result. 
+Conditional statements allow us to check a condition and execute certain parts of code depending on whether the condition is true or false.
+
+if else statement
+switch statement
+
+If…else statement
+Use if to specify a block of code to be executed, if a specified condition is true. 
+Use else to specify a block of code to be executed if the same condition is false.
+
+if (condition) {
+block of code to be executed if the condition is true
+}
+
+
+switch statement
+The switch statement can have a number of possible execution paths. Use the switch to specify many alternative blocks of code to be executed.
+
+ {
+ 
+ 
+ public static void main(String[] args) {
+
+ int weekday = 3;
+ switch (weekday) {
+ case 1: System.out.println("Sunday"); break;
+ case 2: System.out.println("Monday"); break;
+ case 3: System.out.println("Tuesday"); break;
+ case 4: System.out.println("Wednesday"); break;
+ case 5: System.out.println("Thursday"); break;
+ case 6: System.out.println("Friday"); break;
+ case 7: System.out.println("Saturday"); break;
+ 
+ default: System.out.println("Not in week!! ");break;
+ }
+ }
+ }
+
+
+What is Exception in Java?
+
+In Java, an exception is an event that disrupts the normal flow of the program. It is an object which is thrown at runtime.
+
+
+
+Java constructors or constructors in Java is a terminology used to construct something in our programs. 
+A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created. 
+It can be used to set initial values for object attributes. 
+
+
+Types of Constructors in Java
+Now is the correct time to discuss the types of the constructor, so primarily there are two types of constructors in java: 
+
+Copy constructor
+Parameterized Constructor
+Default Constructor
+
+1. Copy Constructor
+A constructor that has no parameter is known as the No-argument or Zero argument constructor. 
+If we don’t define a constructor in a class, then the compiler creates a constructor(with no arguments) for the class. 
+And if we write a constructor with arguments or no arguments then the compiler does not create a default constructor. 
+
+
+2. Parameterized Constructor
+A constructor that has parameters is known as parameterized constructor. 
+If we want to initialize fields of the class with our own values, then use a parameterized constructor.
+
+ Default Constructor
+A constructor that has no parameters is known as default the constructor. A default constructor is invisible. 
+And if we write a constructor with arguments or no arguments then the compiler does not create a default constructor.
+It is taken out. It is being overloaded and called a parameterized constructor.
+The default constructor changed into the parameterized constructor. But Parameterized constructor can’t change the default constructor.
