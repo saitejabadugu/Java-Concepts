@@ -1,0 +1,87 @@
+class HelloWorld {
+
+    public static void main(String[] args) {
+
+        int a = 50;
+
+        String k = "kira";
+
+        boolean b = true;
+
+        int[] numArray = {2,3,4,5,6,7,8};
+
+        String[] strArray = {"Vijayawada", "Guntur", "Mangalagiri"};
+
+        
+
+        
+
+        //Check whether the num is even or odd
+
+        if(a%2 == 0)
+
+            System.out.println("a is even");
+
+        else 
+
+            System.out.println("a is odd");
+
+            
+            System.out.println("\n");
+        //Print the length of the string
+
+        int len = k.length();
+
+        System.out.println("length of k is "+ len);
+
+        
+
+        //check whether the boolean value is true or false
+
+        if(b)
+
+            System.out.println("b is true");
+
+        else
+
+            System.out.println("b is false");
+
+            
+
+        //print odd numbers only 
+
+        for(int i=0; i<numArray.length; i++) {
+
+            if(numArray[i]%2!=0)
+
+                 System.out.print(numArray[i]+ " ");
+
+        }
+
+        System.out.println("\n");
+
+        
+
+        //print even length string elements of array
+
+        for(int i=0; i<strArray.length; i++) {
+            if(strArray[i].length()%2 ==0) {
+
+                    System.out.print(strArray[i]);
+
+                    System.out.print(",");
+
+
+              
+
+            }
+
+              
+
+        }
+
+        
+
+    }
+
+}
