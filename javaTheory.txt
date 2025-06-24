@@ -1,6 +1,6 @@
 
 
-												JAVA OOPS CONCEPTS
+JAVA OOPS CONCEPTS
 
 
 What is OOPs Concept?
